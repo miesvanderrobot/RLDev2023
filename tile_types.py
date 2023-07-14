@@ -20,6 +20,7 @@ tile_dt = np.dtype(
     ]
 )
 
+
 def new_tile(
     *,  # Enforce the use of keywords, so that parameter order doesn't matter.
     walkable: int,

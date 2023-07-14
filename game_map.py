@@ -3,6 +3,7 @@ from tcod.console import Console
 
 import tile_types
 
+
 class GameMap:
     def __init__(self, width: int, height: int):
         self.width, self.height = width, height

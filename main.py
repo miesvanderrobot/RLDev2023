@@ -6,6 +6,7 @@ from entity import Entity
 from game_map import GameMap
 from input_handlers import EventHandler
 
+
 def main() -> None:
     screen_width = 80
     screen_height = 50
@@ -40,6 +41,7 @@ def main() -> None:
             events = tcod.event.wait()
 
             engine.handle_events(events)
+
 
 if __name__ == "__main__":
     main()
